@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <spnn [ngStyle]="{color: element.type=='server' ? 'blue' : 'red'}">{{element.name}}</spnn>
+          <!-- {{serverElement.name}} -->
+        </div>
+        <div class="panel-body">
+          {{element.content}}
+        </div>
+      </div>
+    </div>
+  </div>

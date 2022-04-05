@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
+## Details
+
+This project demonstrate the component/`custom data binding` techniques. It shows show we can share data between child to parent and parent to child. User of `@Input`/`@Output`. Check for viewEncapsulation as well which helps to aply perticular css globally throughout the project. Aslo check for `local reference(#localreference)`, which mean instead of using two way bingin you can add reference to any input or any tag in template using # and can reference it anywhere in template. Once can use `@ViewChild` decorator as well which help you to access localy referenced html variable in component.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
